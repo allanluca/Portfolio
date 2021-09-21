@@ -1,3 +1,4 @@
+
 function dados(name , callback) {
     let section = document.getElementById(name);
 
@@ -29,3 +30,9 @@ function loadButton(name){
     let section = document.getElementById(name)
     section.appendChild(button)
 }
+
+dados('formacao')
+dados('trajetoria')
+dados('projetos')
+dados('premiacoes')
+dados('contato', loadButton)
