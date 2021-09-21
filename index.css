@@ -1,0 +1,97 @@
+body{
+    font-family: sans-serif;
+    color: var(fontBgColor);
+    
+}
+header {
+    background-image:linear-gradient(to right,white,blue);
+    background-color: var(--headercolor);
+    color: var(fontHeaderColor);
+    padding-left: 2%;
+    padding-bottom: 6%;
+    
+    font-family:'Arial';
+    color:black;
+    margin: 0% 0% 0% 0%;
+}
+
+
+
+
+
+header nav{
+    padding-top:  5%;
+}
+ header nav ul{
+     list-style: none;
+     text-align:right;
+     margin-right: 10%;
+    
+ }
+
+header nav ul li {
+    padding-left: 1%;
+    padding-right: 1%;
+    display: inline;
+    transition: all 1s, transform 2s;
+    width: 100px;
+    
+}
+
+header nav ul li :hover{
+    box-shadow: 5px 5px 15px var(--headercolor);
+    width: 100px;
+    
+}
+header nav ul li a{
+    color: var(--bgcolor);
+    text-decoration: none;
+    
+}
+
+section{
+    margin: 5% 5%;
+    padding-top: 2%;
+    text-align: justify;
+}
+
+section article {
+    display:  inline-block;
+    height: 200px;
+    width: 200px;
+    padding-right: 1%;
+    padding-left: 1%;
+    border:nome;
+    margin-left: 5%;
+    border-radius: 5%;
+    transition: all 1s, transform 2s;
+}
+
+section article :hover{
+    box-shadow: 10px 10px 25px var(--headercolor);
+    height: 205px;
+    width: 205px;
+
+}
+
+
+section article h4{
+    text-align: container;
+}
+
+aside{
+    transition: all transfom 2s;
+    position: relative;
+    float: left;
+    height: 300px;
+    width: 400px;
+}
+
+ div  input{
+    top: -10px;
+    left: 50%;
+    position: relative;
+    color:black;
+    background-color:aqua ;
+    font-variant: small-caps;
+}
